@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script  type="text/javascript" src="https://codesandbox.io/public/sse-hooks/sse-hooks.f648b14c15c640a14a557113a991cb8d.js"></script>
+    <script  type="text/javascript" src="https://codesandbox.io/static/js/banner.be879265d.js"></script>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Might</title>
+    
+    <style type="text/css">
+    
+    body{
+     background:url("https://images.unsplash.com/photo-1507065255811-f3b9fe968f84?ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;}
+.login{
+    margin-top: 20vh;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    height: 57vh;
+    width: 26%;
+    background-color: #13181c;
+    opacity:0.7;
+    border-radius: 15px;
+}
+#white{
+    color: white;
+}
+.h1-1{
+    padding-top: 10%;
+}
+.hold{
+    width: 60%;
+    margin-top:14%;
+    height: 6.5vh;
+    border:1px solid #474787;
+    background: black;
+    border-radius: 50px;
+    padding-left:3%;
+    outline: none;
+}
+.hold2{
+    width: 60%;
+    margin-top:8%;
+    height: 6.5vh;
+    border:1px solid #474787;
+    background: black;
+    border-radius: 50px;
+    padding-left:3%;
+    outline: none;
+}
+.btn-1{
+    margin-top:12%;
+    width: 60%;
+    outline: none;
+    height: 4.5vh;
+    border-radius: 50px;
+    border: none;
+    background: linear-gradient(90deg, rgba(29,129,130,1) 0%, rgba(52,232,32,1) 100%);
+}
+.btn-1:hover{
+    opacity: 0.9;
+}
+.btn-1:active{
+    opacity: 0.8;
+}
+@media screen and (max-width:720px){
+    .login{
+        margin-top: 0;
+        width: 100%;
+        height: 100vh;
+        border-radius: 0;
+    }
+    .h1-1{
+    padding-top: 25%;
+}
+    .btn-1{
+        height: 5vh;
+    }
+}
+    
+    </style>
+</head>
+<body>
+ <form action="Login.mlk" method="post"> 
+<div class="login">
+    <center>
+        <h2 id="white" class="h1-1">GİRİŞ</h2>
+
+
+<input id="white" name="Ad" class="hold" type="text" placeholder="Kullanıcı Adı"/>
+        <input id="white" name="Soyad"  class="hold2" type="password" placeholder="Şifre"/>
+        <p>
+          <br>
+ 
+            <input type="radio" name="tip"  value="yonetici" /> 
+            <label for="yonetici"> <font color="white">Yönetici</font>  </label>
+          </p>
+          <p>
+            <input type="radio" name="tip"  value="kullanici" /> 
+            <label for="kullanici"><font color="white">Kullanıcı</font> </label>
+        </p>
+        <a href="#"><input type="submit" class="btn-1" value="Giriş Yap"></a>
+    </center>
+</div>    
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script crossorigin type="text/javascript" src="https://codesandbox.io/static/js/watermark-button.be960f43b.js"></script>
+  </form>
+  </body>    
+</html>
